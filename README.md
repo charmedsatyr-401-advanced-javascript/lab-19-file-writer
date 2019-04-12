@@ -59,7 +59,7 @@ This module reads a file and returns a Promise. It writes a `file` with the give
 
 ### Setup
 #### `.env`
-* `QUEUE_SERVER` - The full URL and port of the `Q` server to which the app should publish events.
+* `Q_SERVER` - The full URL and port of the `Q` server to which the app should publish events.
 
 #### Running the app
 * `node index.js <fileName>` - to run the appln `<fileName>`, where `<fileName>` is the path to a readable file. 
