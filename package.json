@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/charmedsatyr-401-advanced-javascript/lab-19-file-writer/issues"
   },
-  "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-19-file-writer#readme"
+  "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-19-file-writer#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.2"
+  }
 }
