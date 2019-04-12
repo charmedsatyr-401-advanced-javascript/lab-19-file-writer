@@ -4,7 +4,8 @@
   "description": "file-writer-with-socket-queue",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint '**/*.js'",
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "homepage": "https://github.com/charmedsatyr-401-advanced-javascript/lab-19-file-writer#readme",
   "dependencies": {
     "@nmq/q": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
   }
 }
