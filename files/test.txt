@@ -1,1 +1,1 @@
-THIS IS SOME SAMPLE TEXT
+this is a simple test
